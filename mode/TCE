@@ -1,0 +1,5 @@
+#!/system/bin/sh
+MODDIR=${0%/*}
+
+su -c pm enable-user com.android.traceur
+
